@@ -9,9 +9,9 @@ body {
 }
 
 .logo {
-    width: 300px;
+    width: 500px;
     height: auto;
-    border-radius: 8px; 
+    border-radius: 15px; 
 }
 
 .container {
@@ -33,11 +33,20 @@ body {
 
 .perfis-container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    align-self: flex-start;
-    gap: 10px;
-    padding-left: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding:0;
+    width: 100%;
+}
+
+.perfis-wrapper {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    gap: 20px;
 }
 
 .perfil {
@@ -84,3 +93,5 @@ body {
     background-color: #0a06b3;
     border: 2px solid white;
 }
+
+
